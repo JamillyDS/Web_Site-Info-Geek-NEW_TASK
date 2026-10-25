@@ -17,8 +17,8 @@ const dadosDoHero = [
         text: "Explore um mundo cheio de mistérios que se transformam a cada salto! Moonleap é um jogo sobre um menino da lua em sua jornada para recuperar estrelas cadentes. Transforme o dia em noite com seu salto e pegue todas as estrelas neste desafiador jogo de plataforma e quebra-cabeça!",
     },
     {
-        img: "./images/superCatBros.jpg",
-        title: "Super Cat Bros",
+        img: "./images/meatBoy.jpg",
+        title: "Super Meat Boy",
         text: "",
     },
     {
