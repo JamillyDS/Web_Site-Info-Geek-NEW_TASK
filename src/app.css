@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6em;
+    margin-bottom: 3em;
 }
 
 .hero h1 {
@@ -48,6 +48,22 @@ body {
     margin-top: 0.5em;
 }
 
+.hero p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ff93;
+    margin-top: 1em;
+    width: 340px;
+}
+
 .hero img {
     width: 100%;
+}
+
+.title-notion {
+    color: #00ff93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

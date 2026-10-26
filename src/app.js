@@ -19,15 +19,17 @@ const dadosDoHero = [
     {
         img: "./images/meatBoy.jpg",
         title: "Super Meat Boy",
-        text: "",
+        text: "Super Meat Boy é um jogo eletrônico independente projetado por Edmund McMillen e Tommy Refenes, desenvolvido pela Team Meat. Ele é o sucessor do jogo Flash Meat Boy, criado por McMillen e Jonathan McEntee em 2008.",
     },
     {
         img: "./images/zeldaMask.jpg",
-        title: "Teste 5",
+        title: "The Legend of Zelda: Majora’s Mask",
+        text: "The Legend of Zelda: Majora's Mask é um jogo eletrônico de ação-aventura desenvolvido e publicado pela Nintendo para o console Nintendo 64.",
     },
     {
         img: "./images/bayoneta.jpg",
-        title: "Teste 6",
+        title: "Bayonetta",
+        text: "Bayonetta é um jogo eletrônico de ação e aventura e hack and slash desenvolvido pela PlatinumGames e publicado pela Sega. Ele foi lançado para PlayStation 3 e Xbox 360 no Japão em outubro de 2009, e na América do Norte e Europa em janeiro de 2010.",
     }
 ];
 
@@ -35,16 +37,20 @@ let indice = 0;
 
 const newImage = document.createElement("img");
 const newText = document.createElement("h1");
+const paragrafo = document.createElement("p");
 
 newImage.src = dadosDoHero[indice].img;
 newText.textContent = dadosDoHero[indice].title;
+paragrafo.textContent = dadosDoHero[indice].text;
 
 hero.appendChild(newImage);
 hero.appendChild(newText);
+hero.appendChild(paragrafo);
 
 hero.addEventListener("click", () => {
     indice = (indice + 1) % dadosDoHero.length;
 
     newImage.src = dadosDoHero[indice].img;
     newText.textContent = dadosDoHero[indice].title;
+    paragrafo.textContent = dadosDoHero[indice].text;
 });
