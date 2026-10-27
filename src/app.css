@@ -1,69 +1,183 @@
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #040b1b;
+  background-color: #040b1b;
 }
 
 .container-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1em;
 }
 
 .logo-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5em;
 }
 
 .logo-div p {
-    margin-left: 0.2em;
-    color: #00ff93;
+  color: #ffa600ff;
+}
+
+.navigation {
+    margin-right: 1.5em;
 }
 
 .navigation a img {
-    margin-left: 0.3em;
-    width: 22px;
+  width: 22px;
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8em;
+}
+
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffa600ff;
+  margin-top: 0.5em;
+}
+
+.hero p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00ff93;
+  margin-top: 1em;
+  width: 340px;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.content-games {
+    margin-bottom: 4em;
+}
+
+.title-notion {
+  color: #ffa600ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+  color: #00ff93;
+}
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3em;
+    width: 300px;
+    margin-bottom: 1.5em;
 }
 
-.hero h1 {
+.card-rigth {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #00ff93;
-    margin-top: 0.5em;
+    margin-top: 2em;
 }
 
-.hero p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card-rigth h3 {
+    text-align: center;
     color: #00ff93;
-    margin-top: 1em;
+    margin: 0.5em;
+}
+
+.card-rigth p {
+    color: #00ff93;
+    width: 320px;
+    margin-bottom: 0.5em;
+}
+
+iframe {
     width: 340px;
+    height: 200px;
 }
 
-.hero img {
-    width: 100%;
+.content-Animatios {
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00ff93;
 }
 
 .title-notion {
-    color: #00ff93;
+    color: #ffa600ff;
+}
+
+.content-animations-moves {
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+.title-sub-series {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #ffa600ff;
+}
+
+.grid-series {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.cards-series {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    width: 330px;
+}
+
+.movies-sub-anima {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.grid-move {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+}
+
+.card-move {
+    margin-bottom: 1em;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #00ff93;
+    margin: 0.5em 1em;
 }
